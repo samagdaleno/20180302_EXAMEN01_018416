@@ -44,8 +44,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bank.cs" />
+    <Compile Include="BankA.cs" />
+    <Compile Include="BankB.cs" />
+    <Compile Include="BankC.cs" />
+    <Compile Include="FormatA.cs" />
+    <Compile Include="FormatB.cs" />
+    <Compile Include="FormatC.cs" />
+    <Compile Include="IFormat.cs" />
+    <Compile Include="IObserver.cs" />
+    <Compile Include="IProtocol.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolA.cs" />
+    <Compile Include="ProtocolB.cs" />
+    <Compile Include="ProtocolC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
