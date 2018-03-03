@@ -1,0 +1,8 @@
+El diagrama usa como clase principal la clase banco, que funciona como el modelo de suscripción que vimos en clase.
+Las clases de los protocolos y formatos, usan la interfaz para compartir los metodos comunes de todas las clases, y ya cada una
+implementa sus propios metodos y verificaciones requeridas segun sea el caso. 
+
+La clase abstracta banco al mismo tiempo tiene una lista de protocolos y formatos, que sus clases hijos (los bancos individuales) van a ser uso
+ya que cada una de estos funciona como una subscricion a la que cada banco va a usar, para hacer sus transferencias. 
+
+La clase banco tiene, ademas de las listas, el metodo de transfer, notificacion que comparten todas las clases  
