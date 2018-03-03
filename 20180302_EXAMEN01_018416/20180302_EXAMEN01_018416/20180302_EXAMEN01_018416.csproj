@@ -47,6 +47,8 @@
     <Compile Include="BankA.cs" />
     <Compile Include="BankB.cs" />
     <Compile Include="BankC.cs" />
+    <Compile Include="ClientA.cs" />
+    <Compile Include="ClientB.cs" />
     <Compile Include="FormatA.cs" />
     <Compile Include="FormatB.cs" />
     <Compile Include="FormatC.cs" />
